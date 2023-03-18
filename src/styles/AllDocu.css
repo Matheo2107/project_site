@@ -1,0 +1,180 @@
+.main{
+    position: relative;
+}
+
+.layer-all{
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ff2ee0;
+}
+
+.layout-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doc-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    box-sizing: border-box;
+
+    width: 80vw;
+    max-width: 1300px;
+    background-color: #c356f1;
+    margin-top: 2vh;
+    border-radius: 1rem;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.image {
+    width: 40%;
+    max-width: 300px;
+    opacity: 1;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.theme{
+    padding-left: 2%;
+    
+}
+
+.platforme{
+    padding-left: 2%;
+}
+
+.note{
+    padding-left: 2%;
+}
+
+.commentaire{
+    font-size: 0.7rem;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2rem;
+}
+
+.date{
+    position: absolute;
+    right: 6%;
+    top: 1.8rem;
+}
+
+.resume{
+    font-size: 0.7rem;
+    margin: 1% 3% 2% 3%;
+}
+
+.logo-edit{
+    position: absolute;
+    width: 1.4rem;
+    height: 1.4rem;
+    top: 0.7rem;
+    right: 3rem;
+
+    cursor: pointer;
+}
+
+.logo-supprimer{
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+    top: 0.6rem;
+    right: 0.8rem;
+
+    cursor: pointer;
+}
+
+input[type="text"]{
+    background-color: #8b3cae;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 1px;
+    border: none;
+    border-radius: 10px;
+}
+
+.title input[type="text"]{
+    width: 80%;
+    font-size: 1rem;
+    height: 1.3rem;
+}
+
+.theme input[type="text"]{
+    width: 80%;
+    font-size: 0.8rem;
+    height: 1.1rem;
+}
+
+.platforme input[type="text"]{
+    width: 50%;
+    font-size: 0.8rem;
+    height: 1.1rem;
+}
+
+.note input[type="text"]{
+    width: 2rem;
+    font-size: 0.8rem;
+    height: 1.1rem;
+}
+
+textarea{
+    background-color: #8b3cae;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.commentaire-input {
+    width:100%;
+    height: 4rem;
+    font-size: 0.8rem;
+}
+
+.commentaire-input textarea{
+    height: 4rem;
+
+}
+
+.resume-input {
+    width:100%;
+    height: 8rem;
+    font-size: 0.8rem;
+}
+
+.resume-input textarea{
+    height: 8rem;
+}
